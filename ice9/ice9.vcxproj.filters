@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9">
+      <UniqueIdentifier>{d9ad4a9d-55c1-455e-8c68-0b5dcc5eb30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\external_detect">
+      <UniqueIdentifier>{6630f914-5161-4b17-8aa4-c59fc838dd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect">
+      <UniqueIdentifier>{eed01213-7dd8-497d-a6c2-726c8faba22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect\thread_monitor">
+      <UniqueIdentifier>{0650500b-4585-421a-80ec-e10dda55e278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect\modules_monitor">
+      <UniqueIdentifier>{82a84a1d-5ae8-44c0-99b4-ee82bb4aa432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect\msg_monitor">
+      <UniqueIdentifier>{40c4cd64-fff6-4c01-8fbc-cc932092c82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\external_detect\process_monitor">
+      <UniqueIdentifier>{185c77f5-389c-40e5-ba27-a2d1e799dc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect\msg_monitor\handers">
+      <UniqueIdentifier>{fcdffede-3d1f-4305-934a-0f1f82c75912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ice9\internal_detect\antidebug">
+      <UniqueIdentifier>{4278660a-9c5d-439d-9461-1aa6423af758}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9.h">
+      <Filter>Заголовочные файлы\ice9</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_modules_monitor.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\modules_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_message_monitor.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\msg_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_thread_monitor.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\thread_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_process_monitor.h">
+      <Filter>Заголовочные файлы\ice9\external_detect\process_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_internal.h">
+      <Filter>Заголовочные файлы\ice9</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_window_hook.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\msg_monitor\handers</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_window_raw_hook.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\msg_monitor\handers</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_antidebug.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\antidebug</Filter>
+    </ClInclude>
+    <ClInclude Include="ice9_window_hook_experimental.h">
+      <Filter>Заголовочные файлы\ice9\internal_detect\msg_monitor\handers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ice9.cpp">
+      <Filter>Заголовочные файлы\ice9</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
