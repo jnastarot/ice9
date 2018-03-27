@@ -83,4 +83,7 @@
       <Filter>Заголовочные файлы\ice9</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" />
+  </ItemGroup>
 </Project>
