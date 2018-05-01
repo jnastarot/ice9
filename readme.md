@@ -9,4 +9,4 @@ e.mail..: jnastarot@yandex.ru
 --------------------------------------------------------------------------------
 ```
 
-[![Ice9 anti-cheat video](http://img.youtube.com/vi/LFD_3pioZdA/0.jpg)](https://www.youtube.com/watch?v=LFD_3pioZdA "Ice9 anti-cheat video")
+[Ice9 anti-cheat https://www.youtube.com/watch?v=LFD_3pioZdA](https://www.youtube.com/watch?v=LFD_3pioZdA)
